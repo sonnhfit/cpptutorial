@@ -1,5 +1,23 @@
-Bài tập if_for_while..
+## Bài tập if for while
+
 1.	Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
+
+```cpp
+#include <iostream>
+using namespace std; 
+ 
+int main()
+{
+    int n;
+    cout << "Nhap so n: ";
+    cin >> n;
+    cout << "Tat ca cac so tu 1 den " << n << " la:";
+    for (int i = 1; i <= n; i++) {
+        cout << " " << i;
+    }
+    return 0;
+}
+```
 
 
 2.	Viết chương trình nhập vào một số nguyên n và in ra màn hình các số nguyên chẵn trong khoảng từ 1 tới n.
