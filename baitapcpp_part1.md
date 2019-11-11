@@ -182,7 +182,7 @@ int main()
 }
 
 ```
-15.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra bội chung nhỏ nhất của chúng.
+### 15.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra bội chung nhỏ nhất của chúng.
 
 ```cpp
 #include <iostream>
