@@ -2,10 +2,12 @@ Bài tập mảng 2 chiều
 
 Bài 1: Viết CT nhập vào một ma trận vuông, tính và in ra màn hình tổng của đường chéo chính của ma trận đó.
 Ví dụ
+```
 1	2	3	4
 2	8	6	4
 -1	4	-9	1
 5	3	2	0
+```
 Tổng là 1+8+(-9)+0 = 0
 
 Bài 2: Viết CT nhập vào một ma trận, tìm và in ra số lớn nhất trên mỗi dòng của ma trận.
