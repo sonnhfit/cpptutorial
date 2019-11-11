@@ -80,6 +80,35 @@ int main()
 }
 ```
 6.	Viết chương trình nhập vào 1 số n và in ra màn hình các số nguyên tố trong khoảng từ 1 tới 2n.
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"nhap vao n: ";
+    cin>>n;
+
+    for(int i = 1; i< 2*n; i++)
+    {
+        int dem = 0;
+        for(int j = 1; j <= i; j++)
+        {
+            if(i%j==0)
+            {
+                dem++;
+            }
+        }
+        if(dem == 2)
+        {
+            cout<<i<<" ";
+        }
+    }
+    return 0;
+}
+```
 7.	Viết chương trình nhập vào 2 số a,b và in ra màn hình các số nguyên tố trong khoảng bị giới hạn bởi a và b (Mọi người lưu ý là a,b nhập ngẫu nhiên nhé!)
 8.	Số chính phương là số mà căn bậc hai của nó là 1 số nguyên dương. Viết chương trình nhập vào một số nguyên dương n và cho biết trong khoảng từ 1 tới 2n có bao nhiêu số chính phương. Hãy in ra dãy số chính phương đó.
 9.	Viết chương trình tìm ra số lũy thừa 2 đầu tiên lớn hơn 1000.
