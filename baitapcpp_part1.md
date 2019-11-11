@@ -170,7 +170,6 @@ int main()
 {
     int a, b;
     cin >> a >> b;
-    int ucln = 1;
     int r;
     while (a%b != 0)
     {
@@ -178,8 +177,7 @@ int main()
         a = b;
         b = r;
     }
-    ucln = b;
-    cout << "UCLN : "<<ucln<<endl;
+    cout << "UCLN : "<<b<<endl;
     return 0;
 }
 
