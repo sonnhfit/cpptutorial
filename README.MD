@@ -1,3 +1,4 @@
+# Các bạn mới học C++ chú ý làm tối thiểu 60% số bài trong 3 file này (khoảng 50 bài) thì các bạn hãy chuyển qua làm cái khác nhé.
 ## Bài tập if for while
 
 ###	1. Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
