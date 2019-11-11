@@ -161,5 +161,27 @@ int main(){
     return 0;
 }
 ```
-14.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra màn hình ước chung của chúng.
+14.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra màn hình ước chung lớn nhất của chúng.
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cin >> a >> b;
+    int ucln = 1;
+    int r;
+    while (a%b != 0)
+    {
+        r = a%b;
+        a = b;
+        b = r;
+    }
+    ucln = b;
+    cout << "UCLN : "<<ucln<<endl;
+    return 0;
+}
+
+```
 15.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra bội chung nhỏ nhất của chúng.
