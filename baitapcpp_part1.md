@@ -114,6 +114,23 @@ int main()
 9.	Viết chương trình tìm ra số lũy thừa 2 đầu tiên lớn hơn 1000.
 10.	Viết chương trình nhập vào 1 số n (n>=10) và kiểm tra xem n có phải số nguyên tố hay ko? In kết quả kiểm tra lên màn hình.
 11.	Viết chương trình nhập vào n và in ra màn hình n!
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n , giaithua = 1;
+	cout<<"nhap vao n: ";
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		giaithua = giaithua*i;
+	}
+	cout << giaithua << endl;
+    return 0;
+}
+
+```
 12.	Viết chương trình nhập vào 3 số a,b,c (1<= c <=3). Nếu c=1 in ra tổng a+b, c=2 in ra hiệu a-b, Còn nếu c=3 thì in ra màn hình: " Tớ thích cậu rồi đấy!".
 13.	Viết chương trình cho nhập 3 số bất kì và kiểm tra xem 3 số đó có thể là 3 cạnh của một tam giác hay không?
 14.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra màn hình ước chung của chúng.
