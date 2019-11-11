@@ -183,3 +183,26 @@ int main()
 
 ```
 15.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra bội chung nhỏ nhất của chúng.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cin >> a >> b;
+    int r;
+    int trunggian = a*b;
+    while (a%b != 0)
+    {
+        r = a%b;
+        a = b;
+        b = r;
+    }
+    int uoc_chung_lon_nhat = b;
+    cout << "BCNN : "<<trunggian/uoc_chung_lon_nhat<<endl;
+    return 0;
+}
+
+```
