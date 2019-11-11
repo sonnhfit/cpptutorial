@@ -1,6 +1,6 @@
 ## Bài tập if for while
 
-1.	Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
+###	Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
 
 ```cpp
 #include <iostream>
