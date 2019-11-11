@@ -161,7 +161,7 @@ int main(){
     return 0;
 }
 ```
-14.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra màn hình ước chung lớn nhất của chúng.
+### 14.	Viết chương trình nhập vào 2 số nguyên dương a,b tìm và in ra màn hình ước chung lớn nhất của chúng.
 ```cpp
 #include <iostream>
 using namespace std;
