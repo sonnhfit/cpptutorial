@@ -1,6 +1,6 @@
 ## Bài tập if for while
 
-###	Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
+###	1. Viết chương trình nhập vào một số nguyên dương n và in ra màn hình dãy số tự nhiên từ 1 tới n.
 
 ```cpp
 #include <iostream>
@@ -20,8 +20,44 @@ int main()
 ```
 
 
-2.	Viết chương trình nhập vào một số nguyên n và in ra màn hình các số nguyên chẵn trong khoảng từ 1 tới n.
-3.	Viết chương trình nhập vào số nguyên dương n và in ra màn hình các ước của n.
+### 2.	Viết chương trình nhập vào một số nguyên n và in ra màn hình các số nguyên chẵn trong khoảng từ 1 tới n.
+```cpp
+#include <iostream>
+using namespace std; 
+ 
+int main()
+{
+    int n;
+    cout << "Nhap so n: ";
+    cin >> n;
+    cout << "Tat ca cac so chan tu 1 den " << n << " la:";
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0) {
+            cout << " " << i;
+        }
+    }
+    return 0;
+}
+```
+### 3.	Viết chương trình nhập vào số nguyên dương n và in ra màn hình các ước của n.
+```cpp
+#include <iostream>
+using namespace std; 
+ 
+int main()
+{
+    int n;
+    cout << "Nhap so n: ";
+    cin >> n;
+    cout << "Tat ca cac uoc cua " << n << " la:";
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            cout << " " << i;
+        }
+    }
+    return 0;
+}
+```
 4.	Viết chương trình nhập vào số n và in ra màn hình dãy như sau: 1 3 5......n .... 6 4 2 ( nghĩa là dãy số có các số nguyên dương lẻ nhỏ hơn n nằm bên tay trái còn các số chẵn sẽ nằm bên tay phải.) 
 5.	Viết chương trình nhập vào số nguyên dương n và in ra màn hình tổng các số chẵn khoảng từ 1 tới n.
 6.	Viết chương trình nhập vào 1 số n và in ra màn hình các số nguyên tố trong khoảng từ 1 tới 2n.
